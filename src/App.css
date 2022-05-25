@@ -1,0 +1,145 @@
+body {
+  background-color: #05292e;
+}
+.App {
+  text-align: center;
+}
+
+.imgbaner {
+  position: absolute;
+  width: 100%;
+  height: 372px;
+  left: 0px;
+  top: 0px;
+
+  background: url("../src/image/3.png");
+}
+.imgrickandmorty {
+  position: absolute;
+  width: 454px;
+  height: 176px;
+  left: 493px;
+  top: 48px;
+  background: url("../src/image/2.png");
+}
+
+.divinfo {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 60%;
+  height: 200px;
+  left: 275px;
+  top: 404px;
+  background: #062226;
+  gap: 1rem;
+}
+.divinfo > li {
+  width: 153px;
+  height: 38px;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.divinfo > input {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.divinfo > input,
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 80%;
+  height: 60px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.divinfo > button {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  width: 18%;
+  padding: 0;
+  border: none;
+}
+.container_character {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0% 20%;
+  position: relative;
+  top: 600px;
+}
+
+.footbuttons {
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+
+  top: 600px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  background-color: #062226;
+}
+.container_character > li {
+  width: 100%;
+  background: #062226;
+  list-style: none;
+}
+.container_character > li > img {
+  position: relative;
+  top: -40px;
+  z-index: 1;
+  width: 100%;
+}
+h1 {
+  color: #ffffff;
+  border-bottom: solid 1px #084851;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+h5,
+h3 {
+  padding: 0%;
+  margin: 0;
+  text-align: left;
+  color: #7e7e7e;
+}
+h3 {
+  color: #ffffff;
+}
+h6 {
+  margin: 0;
+  width: 180px;
+  height: 42px;
+  background: #062226;
+  border-radius: 0px 12px 12px 0px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 1;
+  z-index: 2;
+  position: relative;
+  top: 10px;
+}
+h6 > span {
+  display: inline-block;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 13px;
+}
